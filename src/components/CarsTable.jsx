@@ -36,7 +36,7 @@ const CarsTable = () => {
         </thead>
         <tbody>
           {cars.map((car) => (
-            <tr key={car._id}>
+            <tr key={car.id}>
               <td>{car.name}</td>
               <td>{car.speed}</td>
               <td>{car.color}</td>
