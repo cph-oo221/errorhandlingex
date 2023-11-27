@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/carsapp:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/carsapp:1.0.1
