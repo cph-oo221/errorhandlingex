@@ -7,7 +7,7 @@ const CarsTable = () => {
 
   useEffect(() => {
     fetchAny(
-      "http://46.101.183.184:3005/api/v1/cars/123",
+      "http://46.101.183.184:3005/api/v1/cars",
       (data) => setCars(data.cars),
       (err) => setError(err),
       "GET",
